@@ -30,7 +30,7 @@ function appJS() {
 }
 function appIMG() {
   return gulp
-    .src("src/assets/imgs/**/*.png*")
+    .src("src/assets/imgs/**/*.*")
     .pipe(gulp.dest("build/assets/imgs"));
 }
 
